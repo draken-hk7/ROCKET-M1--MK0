@@ -1,0 +1,12 @@
+{
+  "artifact": "decorative_injector_face_pattern",
+  "not_included": [
+    "orifice count for flow",
+    "orifice diameter",
+    "impingement angle",
+    "pressure drop",
+    "atomization performance",
+    "valve timing"
+  ],
+  "safety_notice": "Educational non-operational artifact. Not for fabrication, pressure testing, propellant use, ignition, launch, or hot-fire operations."
+}

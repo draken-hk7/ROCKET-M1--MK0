@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+*.log
+
+# Keep generated educational artifacts committed when intentionally produced.
+!outputs/
+!cad/exports/

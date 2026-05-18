@@ -1,0 +1,23 @@
+{
+  "artifact": "display_chamber_envelope",
+  "display_envelope": {
+    "display_flange_diameter_mm": 52.0,
+    "display_length_mm": 84.0,
+    "display_outer_diameter_mm": 36.0,
+    "intended_use": "solid display model and documentation scale reference",
+    "note": "Educational non-operational artifact. Not for fabrication, pressure testing, propellant use, ignition, launch, or hot-fire operations."
+  },
+  "materials_discussed_only": [
+    "316L stainless steel",
+    "Inconel 625"
+  ],
+  "not_included": [
+    "internal chamber volume",
+    "wall thickness",
+    "burst pressure",
+    "weld sizing",
+    "regenerative cooling pressure drop",
+    "pressure-rated tolerances"
+  ],
+  "safety_notice": "Educational non-operational artifact. Not for fabrication, pressure testing, propellant use, ignition, launch, or hot-fire operations."
+}

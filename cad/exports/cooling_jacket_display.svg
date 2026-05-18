@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="265" viewBox="0 0 580 265">
+<style>text{font-family:Arial,sans-serif;fill:#1f2933;font-size:12px}.title{font-size:18px;font-weight:700}</style>
+<rect width="100%" height="100%" fill="#fbfcfd"/>
+<text class="title" x="24" y="30">Cooling Jacket Illustration</text>
+<text x="24" y="52">External rib motif only, no regenerative cooling design data</text>
+<rect x="78" y="92" width="420" height="74" rx="8" fill="#edf3f8" stroke="#9aa6b2" stroke-width="2"/>
+<path d="M 96 90 C 114 114, 78 142, 96 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 128 90 C 146 114, 110 142, 128 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 160 90 C 178 114, 142 142, 160 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 192 90 C 210 114, 174 142, 192 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 224 90 C 242 114, 206 142, 224 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 256 90 C 274 114, 238 142, 256 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 288 90 C 306 114, 270 142, 288 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 320 90 C 338 114, 302 142, 320 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 352 90 C 370 114, 334 142, 352 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 384 90 C 402 114, 366 142, 384 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 416 90 C 434 114, 398 142, 416 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 448 90 C 466 114, 430 142, 448 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<path d="M 480 90 C 498 114, 462 142, 480 166" fill="none" stroke="#31556f" stroke-width="2"/>
+<text x="24" y="232">DISPLAY MODEL ONLY - NOT FOR FABRICATION, PRESSURE TESTING, PROPELLANT USE, IGNITION, LAUNCH, OR HOT FIRE.</text>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "artifact": "normalized_nozzle_display_profile",
+  "not_included": [
+    "throat area",
+    "exit diameter",
+    "mass flow",
+    "wall contour tolerances",
+    "MOC characteristic net",
+    "CNC-ready dimensions"
+  ],
+  "safety_notice": "Educational non-operational artifact. Not for fabrication, pressure testing, propellant use, ignition, launch, or hot-fire operations."
+}

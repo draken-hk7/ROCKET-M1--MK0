@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560">
+<style>text{font-family:Arial,sans-serif;fill:#1f2933;font-size:14px}.title{font-size:22px;font-weight:700}.small{font-size:11px}</style>
+<rect width="100%" height="100%" fill="#fbfcfd"/>
+<text class="title" x="34" y="44">Decorative Injector Plate Display</text>
+<text x="34" y="70">Visual marks only. No holes, manifolds, or orifice tolerances.</text>
+<circle cx="280" cy="255" r="150" fill="#edf3f8" stroke="#31556f" stroke-width="3"/>
+<circle cx="280" cy="255" r="20" fill="none" stroke="#9aa6b2" stroke-width="2"/>
+<g fill="#31556f">
+<circle cx="322" cy="255" r="4"/><circle cx="309.7" cy="284.7" r="4"/><circle cx="280" cy="297" r="4"/><circle cx="250.3" cy="284.7" r="4"/>
+<circle cx="238" cy="255" r="4"/><circle cx="250.3" cy="225.3" r="4"/><circle cx="280" cy="213" r="4"/><circle cx="309.7" cy="225.3" r="4"/>
+<circle cx="367" cy="255" r="4"/><circle cx="360.4" cy="288.3" r="4"/><circle cx="341.5" cy="316.5" r="4"/><circle cx="313.3" cy="335.4" r="4"/>
+<circle cx="280" cy="342" r="4"/><circle cx="246.7" cy="335.4" r="4"/><circle cx="218.5" cy="316.5" r="4"/><circle cx="199.6" cy="288.3" r="4"/>
+<circle cx="193" cy="255" r="4"/><circle cx="199.6" cy="221.7" r="4"/><circle cx="218.5" cy="193.5" r="4"/><circle cx="246.7" cy="174.6" r="4"/>
+<circle cx="280" cy="168" r="4"/><circle cx="313.3" cy="174.6" r="4"/><circle cx="341.5" cy="193.5" r="4"/><circle cx="360.4" cy="221.7" r="4"/>
+</g>
+<rect x="34" y="476" width="492" height="44" fill="none" stroke="#31556f" stroke-width="2"/>
+<text class="small" x="48" y="504">DISPLAY MODEL ONLY - NOT AN INJECTOR OR FLOW DEVICE.</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="424" height="434" viewBox="0 0 424 434">
+<style>text{font-family:Arial,sans-serif;font-size:12px;fill:#1f2933}.title{font-size:18px;font-weight:700}.small{font-size:10px}</style>
+<rect width="100%" height="100%" fill="#fbfcfd"/>
+<text class="title" x="24" y="30">Educational Performance Index Envelope</text>
+<text x="24" y="50">Dimensionless proxy values, not NASA CEA or flight data</text>
+<text text-anchor="middle" x="123.0" y="66">O/F 1.2</text>
+<text text-anchor="middle" x="181.0" y="66">O/F 1.5</text>
+<text text-anchor="middle" x="239.0" y="66">O/F 1.8</text>
+<text text-anchor="middle" x="297.0" y="66">O/F 2.1</text>
+<text text-anchor="middle" x="355.0" y="66">O/F 2.4</text>
+<text text-anchor="end" x="86" y="106.0">10 bar</text>
+<rect x="94" y="72" width="54" height="54" rx="4" fill="#a4e178" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="121.0" y="105.0">0.67</text>
+<rect x="152" y="72" width="54" height="54" rx="4" fill="#90eb5a" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="179.0" y="105.0">0.84</text>
+<rect x="210" y="72" width="54" height="54" rx="4" fill="#88ef4d" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="237.0" y="105.0">0.91</text>
+<rect x="268" y="72" width="54" height="54" rx="4" fill="#90eb5a" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="295.0" y="105.0">0.84</text>
+<rect x="326" y="72" width="54" height="54" rx="4" fill="#a4e178" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="353.0" y="105.0">0.67</text>
+<text text-anchor="end" x="86" y="164.0">12.5 bar</text>
+<rect x="94" y="130" width="54" height="54" rx="4" fill="#a3e177" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="121.0" y="163.0">0.68</text>
+<rect x="152" y="130" width="54" height="54" rx="4" fill="#90eb5a" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="179.0" y="163.0">0.84</text>
+<rect x="210" y="130" width="54" height="54" rx="4" fill="#87ef4c" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="237.0" y="163.0">0.91</text>
+<rect x="268" y="130" width="54" height="54" rx="4" fill="#90eb5a" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="295.0" y="163.0">0.84</text>
+<rect x="326" y="130" width="54" height="54" rx="4" fill="#a3e177" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="353.0" y="163.0">0.68</text>
+<text text-anchor="end" x="86" y="222.0">15 bar</text>
+<rect x="94" y="188" width="54" height="54" rx="4" fill="#a3e177" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="121.0" y="221.0">0.68</text>
+<rect x="152" y="188" width="54" height="54" rx="4" fill="#90eb59" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="179.0" y="221.0">0.84</text>
+<rect x="210" y="188" width="54" height="54" rx="4" fill="#87ef4c" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="237.0" y="221.0">0.91</text>
+<rect x="268" y="188" width="54" height="54" rx="4" fill="#90eb59" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="295.0" y="221.0">0.84</text>
+<rect x="326" y="188" width="54" height="54" rx="4" fill="#a3e177" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="353.0" y="221.0">0.68</text>
+<text text-anchor="end" x="86" y="280.0">17.5 bar</text>
+<rect x="94" y="246" width="54" height="54" rx="4" fill="#a3e177" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="121.0" y="279.0">0.68</text>
+<rect x="152" y="246" width="54" height="54" rx="4" fill="#90eb59" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="179.0" y="279.0">0.84</text>
+<rect x="210" y="246" width="54" height="54" rx="4" fill="#87ef4c" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="237.0" y="279.0">0.91</text>
+<rect x="268" y="246" width="54" height="54" rx="4" fill="#90eb59" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="295.0" y="279.0">0.84</text>
+<rect x="326" y="246" width="54" height="54" rx="4" fill="#a3e177" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="353.0" y="279.0">0.68</text>
+<text text-anchor="end" x="86" y="338.0">20 bar</text>
+<rect x="94" y="304" width="54" height="54" rx="4" fill="#a3e177" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="121.0" y="337.0">0.68</text>
+<rect x="152" y="304" width="54" height="54" rx="4" fill="#8feb59" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="179.0" y="337.0">0.84</text>
+<rect x="210" y="304" width="54" height="54" rx="4" fill="#87ef4b" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="237.0" y="337.0">0.91</text>
+<rect x="268" y="304" width="54" height="54" rx="4" fill="#8feb59" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="295.0" y="337.0">0.84</text>
+<rect x="326" y="304" width="54" height="54" rx="4" fill="#a3e177" stroke="#c9d1d9"/>
+<text text-anchor="middle" x="353.0" y="337.0">0.68</text>
+<text class="small" x="24" y="408">Educational non-operational artifact. Not for fabrication, pressure testing, propellant use, ignition, launch, or hot-fire operations.</text>
+</svg>

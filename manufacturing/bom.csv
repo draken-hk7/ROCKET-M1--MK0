@@ -1,0 +1,5 @@
+part_name,part_number,quantity,material,stock_size,process,supplier_options,estimated_cost_usd,estimated_cost_inr,lead_time_days,note
+Display chamber body,RM1-DISP-001,1,Aluminum or plastic,round bar display blank,3D print or visual-turning demo,local maker shop,18.0,1500.0,7,BOM is for non-pressure display and documentation artifacts only.
+Display nozzle body,RM1-DISP-002,1,Aluminum or plastic,round bar display blank,3D print or visual-turning demo,local maker shop,16.0,1330.0,7,BOM is for non-pressure display and documentation artifacts only.
+Decorative injector face,RM1-DISP-003,1,Acrylic or aluminum,flat display plate,laser marking or engraving,local maker shop,10.0,830.0,5,BOM is for non-pressure display and documentation artifacts only.
+Fastener mockups,RM1-DISP-004,8,Commercial screws,M3 display screws,cosmetic assembly only,McMaster-Carr or local hardware,6.0,500.0,5,BOM is for non-pressure display and documentation artifacts only.

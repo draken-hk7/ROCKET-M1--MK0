@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="325" viewBox="0 0 740 325">
+<style>text{font-family:Arial,sans-serif;fill:#1f2933;font-size:12px}.title{font-size:18px;font-weight:700}</style>
+<rect width="100%" height="100%" fill="#fbfcfd"/>
+<text class="title" x="24" y="30">ROCKET M1- MK0 Display Assembly</text>
+<text x="24" y="52">Solid exterior display model, no operational interfaces</text>
+<path d="M 70 140 L 104 104 L 430 104 C 488 112, 548 88, 670 70 L 670 210 C 548 192, 488 168, 430 176 L 104 176 Z" fill="#dce8f2" stroke="#31556f" stroke-width="2"/>
+<line x1="104" y1="92" x2="104" y2="188" stroke="#31556f" stroke-width="2"/>
+<line x1="430" y1="96" x2="430" y2="184" stroke="#31556f" stroke-width="2"/>
+<text x="78" y="228">Injector display</text>
+<text x="236" y="94">Chamber display</text>
+<text x="520" y="70">Nozzle display</text>
+<text x="24" y="292">DISPLAY MODEL ONLY - NOT FOR FABRICATION, PRESSURE TESTING, PROPELLANT USE, IGNITION, LAUNCH, OR HOT FIRE.</text>
+</svg>

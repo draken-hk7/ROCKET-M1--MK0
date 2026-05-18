@@ -1,0 +1,29 @@
+/* Educational placeholder only. Not a combustion gas model. */
+thermoType
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+mixture
+{
+    specie
+    {
+        molWeight   1;
+    }
+    thermodynamics
+    {
+        Cp          1;
+        Hf          0;
+    }
+    transport
+    {
+        mu          1;
+        Pr          1;
+    }
+}

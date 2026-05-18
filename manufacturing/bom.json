@@ -1,0 +1,57 @@
+{
+  "safety_notice": "BOM is for non-pressure display and documentation artifacts only.",
+  "items": [
+    {
+      "part_name": "Display chamber body",
+      "part_number": "RM1-DISP-001",
+      "quantity": 1,
+      "material": "Aluminum or plastic",
+      "stock_size": "round bar display blank",
+      "process": "3D print or visual-turning demo",
+      "supplier_options": "local maker shop",
+      "estimated_cost_usd": 18.0,
+      "estimated_cost_inr": 1500.0,
+      "lead_time_days": 7,
+      "note": "BOM is for non-pressure display and documentation artifacts only."
+    },
+    {
+      "part_name": "Display nozzle body",
+      "part_number": "RM1-DISP-002",
+      "quantity": 1,
+      "material": "Aluminum or plastic",
+      "stock_size": "round bar display blank",
+      "process": "3D print or visual-turning demo",
+      "supplier_options": "local maker shop",
+      "estimated_cost_usd": 16.0,
+      "estimated_cost_inr": 1330.0,
+      "lead_time_days": 7,
+      "note": "BOM is for non-pressure display and documentation artifacts only."
+    },
+    {
+      "part_name": "Decorative injector face",
+      "part_number": "RM1-DISP-003",
+      "quantity": 1,
+      "material": "Acrylic or aluminum",
+      "stock_size": "flat display plate",
+      "process": "laser marking or engraving",
+      "supplier_options": "local maker shop",
+      "estimated_cost_usd": 10.0,
+      "estimated_cost_inr": 830.0,
+      "lead_time_days": 5,
+      "note": "BOM is for non-pressure display and documentation artifacts only."
+    },
+    {
+      "part_name": "Fastener mockups",
+      "part_number": "RM1-DISP-004",
+      "quantity": 8,
+      "material": "Commercial screws",
+      "stock_size": "M3 display screws",
+      "process": "cosmetic assembly only",
+      "supplier_options": "McMaster-Carr or local hardware",
+      "estimated_cost_usd": 6.0,
+      "estimated_cost_inr": 500.0,
+      "lead_time_days": 5,
+      "note": "BOM is for non-pressure display and documentation artifacts only."
+    }
+  ]
+}

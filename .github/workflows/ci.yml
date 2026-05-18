@@ -1,0 +1,43 @@
+name: educational-engine-ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  generate-artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run educational propulsion generators
+        run: |
+          python propulsion/cea_analysis.py
+          python propulsion/nozzle_design.py
+          python propulsion/chamber_sizing.py
+          python propulsion/injector_design.py
+          python propulsion/performance_plots.py
+
+      - name: Run non-operational CAD and analysis generators
+        run: |
+          python cad/combustion_chamber.py
+          python cad/nozzle_assembly.py
+          python cad/injector_plate.py
+          python cad/cooling_jacket.py
+          python cad/engine_assembly.py
+          python fea/mesh_setup.py
+          python manufacturing/generate_bom.py
+
+      - name: Verify generated files
+        run: |
+          test -f outputs/performance/performance_envelope.csv
+          test -f outputs/nozzle/normalized_nozzle_profile.csv
+          test -f cad/exports/thrust_chamber.stl
+          test -f manufacturing/bom.csv
+          test -f fea/engine_structure.bdf

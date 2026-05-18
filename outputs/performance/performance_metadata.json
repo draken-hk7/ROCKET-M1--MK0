@@ -1,0 +1,13 @@
+{
+  "artifact": "educational_thermodynamic_proxy",
+  "constants_source": "No physical combustion constants are used in this proxy model.",
+  "not_included": [
+    "real NASA CEA equilibrium chemistry",
+    "species mole fractions",
+    "dimensional Isp",
+    "mass flow",
+    "throat area",
+    "propellant feed sizing"
+  ],
+  "safety_notice": "Educational non-operational artifact. Not for fabrication, pressure testing, propellant use, ignition, launch, or hot-fire operations."
+}

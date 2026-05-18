@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520">
+<style>text{font-family:Arial,sans-serif;fill:#1f2933;font-size:14px}.title{font-size:22px;font-weight:700}.small{font-size:11px}</style>
+<rect width="100%" height="100%" fill="#fbfcfd"/>
+<text class="title" x="34" y="44">Nozzle Display Detail</text>
+<text x="34" y="70">Normalized profile reference only. No throat radius or surface finish release.</text>
+<path d="M 86 245 C 190 194, 282 196, 390 210 C 510 226, 630 160, 748 140 L 748 350 C 630 330, 510 264, 390 280 C 282 294, 190 296, 86 245 Z" fill="#dce8f2" stroke="#31556f" stroke-width="3"/>
+<line x1="86" y1="245" x2="748" y2="245" stroke="#9aa6b2" stroke-dasharray="6 6"/>
+<text x="70" y="394">Profile: normalized display contour</text>
+<text x="70" y="420">Critical manufacturing dimensions: intentionally not provided</text>
+<rect x="34" y="448" width="752" height="44" fill="none" stroke="#31556f" stroke-width="2"/>
+<text class="small" x="48" y="476">DISPLAY MODEL ONLY - NOT FOR CNC, TURNING, PRESSURE SERVICE, OR HOT FIRE.</text>
+</svg>

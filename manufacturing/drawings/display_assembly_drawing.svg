@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+<style>text{font-family:Arial,sans-serif;fill:#1f2933;font-size:14px}.title{font-size:22px;font-weight:700}.small{font-size:11px}</style>
+<rect width="100%" height="100%" fill="#fbfcfd"/>
+<text class="title" x="36" y="44">ROCKET M1- MK0 Display Assembly Drawing</text>
+<text x="36" y="70">Non-operational exterior silhouette. No fabrication dimensions.</text>
+<path d="M 110 270 L 152 220 L 520 220 C 590 235, 660 195, 810 170 L 810 370 C 660 345, 590 305, 520 320 L 152 320 Z" fill="#dce8f2" stroke="#31556f" stroke-width="3"/>
+<line x1="152" y1="205" x2="152" y2="335" stroke="#31556f" stroke-width="2"/>
+<line x1="520" y1="205" x2="520" y2="335" stroke="#31556f" stroke-width="2"/>
+<text x="112" y="390">1 Decorative injector face</text>
+<text x="310" y="202">2 Display chamber body</text>
+<text x="620" y="155">3 Display nozzle body</text>
+<rect x="36" y="492" width="828" height="86" fill="none" stroke="#31556f" stroke-width="2"/>
+<text x="52" y="522">Title: Display assembly</text>
+<text x="52" y="548">Part No: RM1-DISP-ASM</text>
+<text x="340" y="522">Revision: A</text>
+<text x="340" y="548">Material: display materials only</text>
+<text x="626" y="522">Scale: none</text>
+<text x="626" y="548">Date: 2026-05-18</text>
+<text class="small" x="52" y="570">DISPLAY MODEL ONLY - NOT FOR FABRICATION, PRESSURE TESTING, PROPELLANT USE, IGNITION, LAUNCH, OR HOT FIRE.</text>
+</svg>
