@@ -1,0 +1,87 @@
+solid fibonacci_sweep_fin
+  // DISPLAY MODEL ONLY - NOT FOR FABRICATION, PRESSURE TESTING, PROPELLANT USE, IGNITION, LAUNCH, OR HOT FIRE.
+  facet normal 0 0 0
+    outer loop
+      vertex 0.000000 0.000000 2.000000
+      vertex 120.000000 0.000000 2.000000
+      vertex 119.986068 89.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.000000 0.000000 -2.000000
+      vertex 119.986068 89.000000 -2.000000
+      vertex 120.000000 0.000000 -2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.000000 0.000000 2.000000
+      vertex 119.986068 89.000000 2.000000
+      vertex 59.986068 89.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.000000 0.000000 -2.000000
+      vertex 59.986068 89.000000 -2.000000
+      vertex 119.986068 89.000000 -2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.000000 0.000000 -2.000000
+      vertex 120.000000 0.000000 -2.000000
+      vertex 120.000000 0.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.000000 0.000000 -2.000000
+      vertex 120.000000 0.000000 2.000000
+      vertex 0.000000 0.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 120.000000 0.000000 -2.000000
+      vertex 119.986068 89.000000 -2.000000
+      vertex 119.986068 89.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 120.000000 0.000000 -2.000000
+      vertex 119.986068 89.000000 2.000000
+      vertex 120.000000 0.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 119.986068 89.000000 -2.000000
+      vertex 59.986068 89.000000 -2.000000
+      vertex 59.986068 89.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 119.986068 89.000000 -2.000000
+      vertex 59.986068 89.000000 2.000000
+      vertex 119.986068 89.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 59.986068 89.000000 -2.000000
+      vertex 0.000000 0.000000 -2.000000
+      vertex 0.000000 0.000000 2.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 59.986068 89.000000 -2.000000
+      vertex 0.000000 0.000000 2.000000
+      vertex 59.986068 89.000000 2.000000
+    endloop
+  endfacet
+endsolid fibonacci_sweep_fin

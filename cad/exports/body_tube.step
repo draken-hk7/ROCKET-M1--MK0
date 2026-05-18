@@ -1,0 +1,11 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ROCKET M1- MK0 non-operational display manifest'),'2;1');
+FILE_NAME('body_tube','2026-05-18T00:00:00',('Codex'),('ROCKET M1- MK0'),'educational','educational','not released');
+FILE_SCHEMA(('CONFIG_CONTROL_DESIGN'));
+ENDSEC;
+DATA;
+/* DISPLAY MODEL ONLY - NOT FOR FABRICATION, PRESSURE TESTING, PROPELLANT USE, IGNITION, LAUNCH, OR HOT FIRE. */
+/* Cylindrical shell educational CAD. GD&T notes: rail-button bosses at [21.0, 34.0, 55.0, 89.0] mm from aft; three fin slots at 120 deg; forward coupler socket and aft fin-can socket use non-pressure clearance references. */
+ENDSEC;
+END-ISO-10303-21;

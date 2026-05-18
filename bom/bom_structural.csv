@@ -1,0 +1,13 @@
+Part,Material,Dimensions_mm,Qty,Process,Supplier,Price_INR
+Body tube,Carbon/fiberglass composite,76 OD x 1200 L x 3 wall,1,commercial tube,local composites supplier,2800
+Nose cone,PETG or balsa/foam,76 OD x 228 L,1,3D print or hand turn,local maker shop,900
+Fin blank,G10 fiberglass,120 root x 89 span x 4 thick,3,laser cut or bandsaw,local fabrication shop,1200
+Avionics coupler,Fiberglass/PETG,70 OD x 144 L,1,3D print or tube coupler,local maker shop,650
+Parachute bay,PETG/fiberglass,76 OD x 200 L,1,3D print or tube section,local maker shop,700
+Bulkhead,Aircraft plywood or G10,70 dia x 3 thick,4,laser cut,local fabrication shop,600
+Rail button,Nylon,standard 1010 compatible,2,commercial hardware,rocketry supplier,300
+Shock cord,Kevlar,6 mm x 4 m,1,cut to length,climbing/industrial supplier,450
+Parachute,Ripstop nylon,600 mm dia,1,sewn or commercial,model rocketry supplier,900
+M3 screw kit,Stainless steel,M3 assorted,1,hand assembly,local hardware,250
+M4 eyebolt,Stainless steel,M4,2,hand assembly,local hardware,160
+Epoxy,Structural epoxy,30 min cure,1,bonding,local hardware,450

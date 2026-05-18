@@ -1,7 +1,6 @@
-# OpenFOAM Training Case
+# Deprecated Internal-Flow Directory
 
-This directory is a non-operational OpenFOAM file-structure template. It is not
-a validated nozzle CFD case and does not provide flight or hot-fire boundary
-conditions.
+The current ROCKET M1-MK0 project is a simulation-first, non-propellant
+airframe. Internal nozzle flow is out of scope.
 
-All values are placeholders for syntax orientation only.
+Use `cfd/external_aero/` for the active OpenFOAM case.

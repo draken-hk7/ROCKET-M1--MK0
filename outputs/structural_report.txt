@@ -1,0 +1,24 @@
+ROCKET M1-MK0 Structural Analysis Report
+========================================
+
+Scope:
+  Simulation-first, non-propellant educational airframe estimates.
+  FEA/hand-calculation values are not fabrication or flight qualification data.
+
+Fin root bending:
+  q = 0.5 * rho * V^2 = 4425.3 Pa
+  sigma_bending = M*c/I = 10.44 MPa
+  G10 allowable = 207.0 MPa
+  Safety factor = 19.82
+
+Body tube hoop stress:
+  P_ejection = 5.0 bar simulation parameter only - not a fabrication spec
+  sigma_hoop = P*r/t = 6.33 MPa
+
+Landing impact:
+  F = m*v^2/(2*s) = 238.8 N
+  Distributed across fin tips and nose for educational load mapping.
+
+Vibration:
+  f1 = (1.875^2)/(2*pi*L^2)*sqrt(EI/rhoA)
+  First bending mode estimate = 66.4 Hz

@@ -117,6 +117,89 @@ def write_revolved_profile_stl(
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def write_extruded_polygon_stl(
+    path: Path,
+    name: str,
+    polygon_xy_mm: Sequence[tuple[float, float]],
+    thickness_mm: float,
+) -> None:
+    """Write an ASCII STL by extruding a 2D polygon.
+
+    Args:
+        path: Destination STL path.
+        name: STL solid name.
+        polygon_xy_mm: Ordered polygon vertices in display millimeters.
+        thickness_mm: Extrusion thickness in millimeters.
+
+    Raises:
+        ValueError: If fewer than three vertices or non-positive thickness.
+    """
+
+    if len(polygon_xy_mm) < 3:
+        raise ValueError("polygon_xy_mm must include at least three vertices.")
+    if thickness_mm <= 0.0:
+        raise ValueError("thickness_mm must be positive.")
+
+    ensure_directory(path.parent)
+    z0 = -thickness_mm / 2.0
+    z1 = thickness_mm / 2.0
+    lower = [(x, y, z0) for x, y in polygon_xy_mm]
+    upper = [(x, y, z1) for x, y in polygon_xy_mm]
+    lines = [f"solid {name}", f"  // {SAFETY_NOTICE}"]
+
+    for index in range(1, len(polygon_xy_mm) - 1):
+        lines.extend(_facet_lines([upper[0], upper[index], upper[index + 1]]))
+        lines.extend(_facet_lines([lower[0], lower[index + 1], lower[index]]))
+
+    count = len(polygon_xy_mm)
+    for index in range(count):
+        next_index = (index + 1) % count
+        lines.extend(_facet_lines([lower[index], lower[next_index], upper[next_index]]))
+        lines.extend(_facet_lines([lower[index], upper[next_index], upper[index]]))
+
+    lines.append(f"endsolid {name}")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def polygon_area_mm2(polygon_xy_mm: Sequence[tuple[float, float]]) -> float:
+    """Calculate polygon area by the shoelace formula."""
+
+    area = 0.0
+    for index, (x0, y0) in enumerate(polygon_xy_mm):
+        x1, y1 = polygon_xy_mm[(index + 1) % len(polygon_xy_mm)]
+        area += x0 * y1 - x1 * y0
+    return abs(area) / 2.0
+
+
+def profile_volume_cm3(profile_mm: Sequence[tuple[float, float]]) -> float:
+    """Estimate revolved profile volume in cubic centimeters."""
+
+    volume_mm3 = 0.0
+    for (x0, r0), (x1, r1) in zip(profile_mm, profile_mm[1:]):
+        length = abs(x1 - x0)
+        volume_mm3 += (3.141592653589793 * length / 3.0) * (r0 * r0 + r0 * r1 + r1 * r1)
+    return volume_mm3 / 1000.0
+
+
+def bbox_from_profile_mm(profile_mm: Sequence[tuple[float, float]]) -> tuple[float, float, float]:
+    """Return bounding box for a revolved profile."""
+
+    min_x = min(x for x, _ in profile_mm)
+    max_x = max(x for x, _ in profile_mm)
+    max_r = max(r for _, r in profile_mm)
+    return (max_x - min_x, 2.0 * max_r, 2.0 * max_r)
+
+
+def print_summary(part_name: str, volume_cm3: float, bbox_mm: tuple[float, float, float], export_path: Path) -> None:
+    """Print a standard CAD summary table row."""
+
+    print("part name | volume_cm3 | bbox_mm | export_path")
+    print(
+        f"{part_name} | {volume_cm3:.2f} | "
+        f"{bbox_mm[0]:.1f} x {bbox_mm[1]:.1f} x {bbox_mm[2]:.1f} | {export_path}"
+    )
+
+
 def write_svg(path: Path, width: int, height: int, body: Iterable[str]) -> None:
     """Write a simple SVG document.
 

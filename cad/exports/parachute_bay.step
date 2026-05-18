@@ -1,0 +1,11 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ROCKET M1- MK0 non-operational display manifest'),'2;1');
+FILE_NAME('parachute_bay','2026-05-18T00:00:00',('Codex'),('ROCKET M1- MK0'),'educational','educational','not released');
+FILE_SCHEMA(('CONFIG_CONTROL_DESIGN'));
+ENDSEC;
+DATA;
+/* DISPLAY MODEL ONLY - NOT FOR FABRICATION, PRESSURE TESTING, PROPELLANT USE, IGNITION, LAUNCH, OR HOT FIRE. */
+/* Parachute bay with 13 phyllotaxis vent references and ejection-cap fit notes. Friction cap interference is documented for simulation packaging only; no energetic ejection design. */
+ENDSEC;
+END-ISO-10303-21;

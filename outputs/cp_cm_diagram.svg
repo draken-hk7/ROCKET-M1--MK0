@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="190" viewBox="0 0 980 190">
+<style>text{font-family:Arial,sans-serif;fill:#1f2933;font-size:13px}.title{font-size:18px;font-weight:700}</style>
+<rect width="100%" height="100%" fill="#fbfcfd"/>
+<text class="title" x="24" y="30">ROCKET M1-MK0 CP / CM Diagram</text>
+<path d="M 52.0 96.0 C 84.8 42, 189.2 42, 218.4 58.0 L 928.0 58.0 L 928.0 134.0 L 218.4 134.0 C 189.2 150, 84.8 150, 52.0 96.0 Z" fill="#e5eef6" stroke="#31556f" stroke-width="2"/>
+<line x1="390.8" y1="48" x2="390.8" y2="152" stroke="#2563eb" stroke-width="3"/>
+<line x1="665.5" y1="48" x2="665.5" y2="152" stroke="#dc2626" stroke-width="3"/>
+<text x="390.8" y="44" text-anchor="middle">CM 464 mm</text>
+<text x="665.5" y="170" text-anchor="middle">CP 840 mm</text>
+<text x="24" y="176">Static margin 4.95 calibers. Non-propellant educational simulation.</text>
+</svg>

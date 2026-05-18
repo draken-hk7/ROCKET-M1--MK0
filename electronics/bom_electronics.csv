@@ -1,0 +1,15 @@
+Component,Quantity,Package,Value,Supplier,Part Number,Price_INR
+ESP32 DevKit,1,Dev board,ESP32-WROOM,Robu.in,ESP32-DEVKIT-V1,450
+BMP390 barometer,1,Breakout,I2C 0x77,Adafruit,4759,950
+ICM-42688 IMU,1,Breakout,SPI,TDK/Adafruit,ICM42688,1200
+RFM96W LoRa,1,Module,433 MHz,HopeRF,RFM96W-433S2,850
+u-blox M9N GPS,1,Module,UART 9600,u-blox,NEO-M9N,2500
+18650 cell,2,Cell,Li-ion protected,Panasonic,NCR18650B,900
+2S BMS module,1,PCB,balanced protection,Generic,2S-BMS-5A,180
+MicroSD socket,1,Module,SPI,Generic,SD-SPI-MODULE,120
+Arm switch,1,Panel switch,SPST,Generic,SPST-toggle,90
+Status LED,1,0603/through-hole,green,Generic,LED-GREEN,5
+Voltage divider resistor,2,0603,100k 1%,Generic,RC0603FR-07100KL,4
+Decoupling capacitor,8,0603,100nF,Generic,CL10B104KB8NNNC,16
+Bulk capacitor,3,0805,10uF,Generic,CL21A106KOQNNNE,30
+LDO regulator,1,SOT-223,3.3V 500mA,AMS,AMS1117-3.3,25

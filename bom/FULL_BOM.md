@@ -1,0 +1,32 @@
+# ROCKET M1-MK0 Full BOM
+
+| Category | Part | Material/Package | Description | Qty | Supplier | Price INR |
+|---|---|---|---|---:|---|---:|
+| Structural | Body tube | Carbon/fiberglass composite | 76 OD x 1200 L x 3 wall | 1 | local composites supplier | 2800 |
+| Structural | Nose cone | PETG or balsa/foam | 76 OD x 228 L | 1 | local maker shop | 900 |
+| Structural | Fin blank | G10 fiberglass | 120 root x 89 span x 4 thick | 3 | local fabrication shop | 1200 |
+| Structural | Avionics coupler | Fiberglass/PETG | 70 OD x 144 L | 1 | local maker shop | 650 |
+| Structural | Parachute bay | PETG/fiberglass | 76 OD x 200 L | 1 | local maker shop | 700 |
+| Structural | Bulkhead | Aircraft plywood or G10 | 70 dia x 3 thick | 4 | local fabrication shop | 600 |
+| Structural | Rail button | Nylon | standard 1010 compatible | 2 | rocketry supplier | 300 |
+| Structural | Shock cord | Kevlar | 6 mm x 4 m | 1 | climbing/industrial supplier | 450 |
+| Structural | Parachute | Ripstop nylon | 600 mm dia | 1 | model rocketry supplier | 900 |
+| Structural | M3 screw kit | Stainless steel | M3 assorted | 1 | local hardware | 250 |
+| Structural | M4 eyebolt | Stainless steel | M4 | 2 | local hardware | 160 |
+| Structural | Epoxy | Structural epoxy | 30 min cure | 1 | local hardware | 450 |
+| Electronics | ESP32 DevKit | Dev board | ESP32-WROOM | 1 | Robu.in | 450 |
+| Electronics | BMP390 barometer | Breakout | I2C 0x77 | 1 | Adafruit | 950 |
+| Electronics | ICM-42688 IMU | Breakout | SPI | 1 | TDK/Adafruit | 1200 |
+| Electronics | RFM96W LoRa | Module | 433 MHz | 1 | HopeRF | 850 |
+| Electronics | u-blox M9N GPS | Module | UART 9600 | 1 | u-blox | 2500 |
+| Electronics | 18650 cell | Cell | Li-ion protected | 2 | Panasonic | 900 |
+| Electronics | 2S BMS module | PCB | balanced protection | 1 | Generic | 180 |
+| Electronics | MicroSD socket | Module | SPI | 1 | Generic | 120 |
+| Electronics | Arm switch | Panel switch | SPST | 1 | Generic | 90 |
+| Electronics | Status LED | 0603/through-hole | green | 1 | Generic | 5 |
+| Electronics | Voltage divider resistor | 0603 | 100k 1% | 2 | Generic | 4 |
+| Electronics | Decoupling capacitor | 0603 | 100nF | 8 | Generic | 16 |
+| Electronics | Bulk capacitor | 0805 | 10uF | 3 | Generic | 30 |
+| Electronics | LDO regulator | SOT-223 | 3.3V 500mA | 1 | AMS | 25 |
+
+Total estimated build cost: INR 22,416

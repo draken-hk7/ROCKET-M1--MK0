@@ -1,0 +1,11 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ROCKET M1- MK0 non-operational display manifest'),'2;1');
+FILE_NAME('avionics_bay','2026-05-18T00:00:00',('Codex'),('ROCKET M1- MK0'),'educational','educational','not released');
+FILE_SCHEMA(('CONFIG_CONTROL_DESIGN'));
+ENDSEC;
+DATA;
+/* DISPLAY MODEL ONLY - NOT FOR FABRICATION, PRESSURE TESTING, PROPELLANT USE, IGNITION, LAUNCH, OR HOT FIRE. */
+/* 144 mm Fibonacci avionics bay. Includes sled layout for two 18650 bays, ESP32, LoRa antenna routing, four M3 standoffs, and fore/aft bulkhead eyebolt references. Hexagonal lightening-hole centers=24. */
+ENDSEC;
+END-ISO-10303-21;

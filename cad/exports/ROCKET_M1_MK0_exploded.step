@@ -1,0 +1,11 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ROCKET M1- MK0 non-operational display manifest'),'2;1');
+FILE_NAME('ROCKET_M1_MK0_exploded','2026-05-18T00:00:00',('Codex'),('ROCKET M1- MK0'),'educational','educational','not released');
+FILE_SCHEMA(('CONFIG_CONTROL_DESIGN'));
+ENDSEC;
+DATA;
+/* DISPLAY MODEL ONLY - NOT FOR FABRICATION, PRESSURE TESTING, PROPELLANT USE, IGNITION, LAUNCH, OR HOT FIRE. */
+/* Exploded educational assembly: each major component offset +150 mm in z for visual review. */
+ENDSEC;
+END-ISO-10303-21;

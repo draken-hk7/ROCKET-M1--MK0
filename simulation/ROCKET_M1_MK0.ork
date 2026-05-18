@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openrocket version="23.09">
+  <rocket>
+    <name>ROCKET M1-MK0</name>
+    <designer>Codex educational simulation</designer>
+    <subcomponents>
+      <nosecone>
+        <name>Von Karman nose cone</name>
+        <length>0.228000</length>
+        <aftradius>0.038000</aftradius>
+        <shape>von_karman</shape>
+      </nosecone>
+      <bodytube>
+        <name>76 mm carbon/fiberglass body</name>
+        <length>0.972000</length>
+        <radius>0.038000</radius>
+      </bodytube>
+      <trapezoidfinset>
+        <name>Fibonacci sweep fin set</name>
+        <fincount>3</fincount>
+        <rootchord>0.120000</rootchord>
+        <tipchord>0.060000</tipchord>
+        <height>0.089000</height>
+        <sweeplength>0.059986</sweeplength>
+        <thickness>0.004000</thickness>
+      </trapezoidfinset>
+    </subcomponents>
+    <analysis>
+      <centerOfMass>0.464171</centerOfMass>
+      <centerOfPressure>0.840458</centerOfPressure>
+      <staticMarginCalibers>4.9512</staticMarginCalibers>
+    </analysis>
+  </rocket>
+</openrocket>

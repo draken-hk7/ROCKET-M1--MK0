@@ -1,43 +1,74 @@
-name: educational-engine-ci
+name: rocket-m1-mk0-ci
 
 on:
   push:
   pull_request:
 
 jobs:
-  generate-artifacts:
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Install lint dependencies
+        run: python -m pip install flake8 mypy
+      - name: Run flake8
+        run: python -m flake8 config utils simulation electronics bom renders tests --jobs=1
+      - name: Run mypy
+        run: python -m mypy config utils simulation electronics bom renders tests --ignore-missing-imports
 
-      - name: Run educational propulsion generators
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: python -m pip install matplotlib pytest pytest-cov
+      - name: Run tests
+        run: python -m pytest tests/ -v --tb=short --cov=. --cov-report=term-missing
+
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install generation dependencies
+        run: python -m pip install matplotlib numpy scipy pandas
+      - name: Generate all educational artifacts
         run: |
-          python propulsion/cea_analysis.py
-          python propulsion/nozzle_design.py
-          python propulsion/chamber_sizing.py
-          python propulsion/injector_design.py
-          python propulsion/performance_plots.py
-
-      - name: Run non-operational CAD and analysis generators
-        run: |
-          python cad/combustion_chamber.py
-          python cad/nozzle_assembly.py
-          python cad/injector_plate.py
-          python cad/cooling_jacket.py
-          python cad/engine_assembly.py
-          python fea/mesh_setup.py
-          python manufacturing/generate_bom.py
-
+          python utils/nature_geometry.py
+          python simulation/aerodynamics.py
+          python simulation/structural_analysis.py
+          python simulation/fibonacci_aero_analysis.py
+          python simulation/voronoi_fin_optimization.py
+          python cad/nose_cone.py
+          python cad/body_tube.py
+          python cad/fin_set.py
+          python cad/avionics_bay.py
+          python cad/parachute_bay.py
+          python cad/full_assembly.py
+          python electronics/wiring_diagram.py
+          python bom/bom_full_merged.py
+          python renders/generate_renders.py
       - name: Verify generated files
         run: |
-          test -f outputs/performance/performance_envelope.csv
-          test -f outputs/nozzle/normalized_nozzle_profile.csv
-          test -f cad/exports/thrust_chamber.stl
-          test -f manufacturing/bom.csv
-          test -f fea/engine_structure.bdf
+          test -f cad/exports/ROCKET_M1_MK0_assembly.step
+          test -f cad/exports/ROCKET_M1_MK0_assembly.stl
+          test -f outputs/altitude_vs_time.png
+          test -f outputs/structural_report.txt
+          test -f electronics/wiring_diagram.svg
+          test -f bom/FULL_BOM.csv
+      - name: Upload generated outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: rocket-m1-mk0-outputs
+          path: |
+            outputs/
+            cad/exports/
+            renders/
